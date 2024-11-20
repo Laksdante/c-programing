@@ -10,10 +10,6 @@ int main(){
             continue;
         }
         printf("i = %d\n", i);
-        if (i == 5)
-        {
-            break;
-        }
         i++;  // increment for next iteration
     }
     return 0;
