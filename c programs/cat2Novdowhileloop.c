@@ -2,14 +2,15 @@
 
 int main(){
     int i = 1;
-    do {
-        if (i == 5)
-        {
-            printf("Breaking the loop at i = 5\n");
+    while (i<=10)
+    {
+        if (i == 3){
+            printf("Skipping iteration at 1 = 3\n");
+            continue;
+        }
+        printf("i = %d\n", i);
+        if(i == 5){
             break;
         }
-        
-        printf("i= %d\n", i);
-        i++;
-    } while(i <= 10);
+    }
 }
