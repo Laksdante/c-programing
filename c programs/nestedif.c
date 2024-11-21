@@ -1,7 +1,6 @@
 #include<stdio.h>
-/*
 int main(){
-    int year = 2024;
+    int year = 2007;
     printf("Year: %d\n", year);
 
     if (year % 4 == 0) {
@@ -15,14 +14,14 @@ int main(){
                 printf("%d is not a leap Year\n", year);
             }
         } else{
-            printf("%d is not a leap Year\n", year);
+            printf("%d is a leap Year\n", year);
         }
     }else{
-        printf("%d is a leap year", year);
+        printf("%d is not a leap year", year);
     }
 }
-*/
-#include<stdio.h>
+
+/* #include<stdio.h>
 int main() {
     int a = 274;
     printf("Value of a is: %d\n", a);
@@ -41,4 +40,4 @@ int main() {
 
     return 0;
 
- }
+ }*/ 
