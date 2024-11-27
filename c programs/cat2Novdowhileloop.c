@@ -5,9 +5,11 @@ int main(){
     while (i<=10)
     {
         if (i == 3){
-            printf("Skipping iteration at 1 = 3\n");
+            printf("Skipping iteration at i = 3\n");
+            
             continue;
         }
+        
         printf("i = %d\n", i);
         if(i == 5){
             break;

@@ -3,13 +3,15 @@
 int main(){
     int i = 1;
 
-    do {
+    do{
         if(i == 3){
-            printf("Skipping iteration at i = 3\n");
+            printf("Skipping iteration at 3\n");
             i++;
             continue;
         }
-        printf("i = %d\n", i);    
+        printf("i = %d\n", i);
         i++;
-    }while (i <= 5);
+    }while(i <= 5);
+
+    return 0;
 }
